@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Calc</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mydiv">
+        <div class="mydiv1">
+            <section>
+    <form>
+        <label>Enter Amount</label>
+        <input id="amt" type="number">
+        <label id="itrl">Enter interest</label>
+        <input id="itr" type="number">
+        <label>Enter Borrowed year</label>
+        <input id="byr" type="number" min="2020" max="2030">
+        <label>Enter Borrowed month</label>
+        <input id="bmt" type="number" min="01" max="12">
+        <label>Enter Borrowed day</label>
+        <input id="bdy" type="number" min="01" max="31">
+        <label>Enter Repayment year</label>
+        <input id="Ryr" type="number" min="2000" max="2050">
+        <label>Enter Repayment month</label>
+        <input id="Rmt" type="number" min="01" max="12">
+        <label>Enter Repayment day</label>
+        <input id="Rdy" type="number" min="01" max="31">
+    </form>
+
+    <button id="btn">submit</button>
+    <button id="ref">Refresh</button>
+    </section>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script src="./index.js"></script>
+    </div>
+    </div>
+</body>
+</html>
